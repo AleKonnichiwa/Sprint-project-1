@@ -5,8 +5,8 @@ class PaymentWay {
     }
 }
 
-let arrayPaymentWay = [ new Status(1, 'EFECTIVO'), 
-                        new Status(2, 'TARJETA')];
+let arrayPaymentWay = [ new PaymentWay(1, 'EFECTIVO'), 
+                        new PaymentWay(2, 'TARJETA')];
 
 module.exports = { arrayPaymentWay };
 
