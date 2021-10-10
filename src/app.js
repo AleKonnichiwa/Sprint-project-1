@@ -15,6 +15,7 @@ const swaggerOptions = {
     apis: ['./src/app.js'],
   };
 
+  
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
 
   //Importacion de archivos particulares
